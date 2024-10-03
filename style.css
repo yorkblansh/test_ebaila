@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+header {
+  text-align: center;
+}
+header img {
+  width: 100%;
+  max-width: 1000px;
+}
+main {
+  padding: 20px;
+}
+section {
+  margin-bottom: 30px;
+}
+h2 {
+  color: #f0f0f0; /* Light gray for headings */
+}
+.mod-list, .news-list, .link-list {
+  list-style: none;
+  padding: 0;
+}
+.mod-list li, .news-list li, .link-list li {
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #222;
+}
+/* Additional Styles for Mod Listing */
+.mod-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mod-list li .mod-name {
+  font-weight: bold;
+}
+/* Additional Styles for News Listing */
+.news-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-list li .news-title {
+  font-weight: bold;
+}
+/* ... your existing CSS ... */
+#youtube-notifications video {
+  /* Optional styles for the video */
+  margin-top: 20px;
+  display: block; /* Center the video */
+}
+
+
+
+
